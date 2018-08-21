@@ -466,6 +466,10 @@
         clAjaxChimp();
         clBackToTop();
 
+        $('a[ga-on="click"]').click(evt => {
+          ga('send', 'event', 'Link', 'Click', $(evt.currentTarget).attr('ga-event-category'));
+        });
+
     })();
         
         
