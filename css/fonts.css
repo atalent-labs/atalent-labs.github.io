@@ -1,106 +1,53 @@
-/* ===================================================================
- * fonts.scss
- *
- * ------------------------------------------------------------------- */
+/* ----------------------------------------------------------------
+	Fonts
+
+	Replace your Fonts as necessary
+-----------------------------------------------------------------*/
 
 
-/*
- * lora
-================================================================================ */
-@font-face {
-    font-family: "lora-regular";
-    src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "lora-italic";
-    src: url("../fonts/lora/lora-italic-webfont.woff2") format("woff2"), url("../fonts/lora/lora-italic-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "lora-bold";
-    src: url("../fonts/lora/lora-bold-webfont.woff2") format("woff2"), url("../fonts/lora/lora-bold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "lora-bold-italic";
-    src: url("../fonts/lora/lora-bolditalic-webfont.woff2") format("woff2"), url("../fonts/lora/lora-bolditalic-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
+body,
+small,
+.sub-menu-container .menu-item > .menu-link,
+.wp-caption,
+.fbox-center.fbox-italic p,
+.skills li .progress-percent .counter,
+.nav-tree ul ul a,
+.font-body { font-family: 'Lato', sans-serif !important; }
 
 
-/*
- * montserrat
-================================================================================ */
-@font-face {
-    font-family: "montserrat-black";
-    src: url("../fonts/montserrat/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-black-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-extrabold";
-    src: url("../fonts/montserrat/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extrabold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-bold";
-    src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-semibold";
-    src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-medium";
-    src: url("../fonts/montserrat/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-regular";
-    src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-light";
-    src: url("../fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-light-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-extralight";
-    src: url("../fonts/montserrat/montserrat-extralight-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extralight-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "montserrat-thin";
-    src: url("../fonts/montserrat/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-thin-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#logo a,
+.menu-link,
+.mega-menu-style-2 .mega-menu-title > .menu-link,
+.top-search-form input,
+.entry-link,
+.entry.entry-date-section span,
+.button.button-desc,
+.fbox-content h3,
+.tab-nav-lg li a,
+.counter,
+label,
+.widget-filter-links li a,
+.nav-tree li a,
+.wedding-head,
+.font-primary { font-family: 'Poppins', sans-serif !important; }
 
 
-/*# sourceMappingURL=fonts.css.map */
+.entry-link span,
+.entry blockquote p,
+.more-link,
+.comment-content .comment-author span,
+.comment-content .comment-author span a,
+.button.button-desc span,
+.testi-content p,
+.team-title span,
+.before-heading,
+.wedding-head .first-name span,
+.wedding-head .last-name span,
+.font-secondary { font-family: 'PT Serif', serif !important; }
+
