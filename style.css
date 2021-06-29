@@ -10,6 +10,11 @@ body {
   width: fit-content;
 }
 
+.container img {
+  width: 80px;
+  margin-bottom: 100px;
+}
+
 .container div {
   width: 400px;
   text-align: justify;
