@@ -32,6 +32,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: fetch install script
+        run: mkdir ./hwt && curl https://raw.githubusercontent.com/atalent-labs/human-web-token/main/scripts/install.sh -O ./hwt/install.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
