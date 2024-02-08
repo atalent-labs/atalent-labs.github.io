@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
+ 
   // array with texts to type in typewriter
   var dataText = [
     'gile delivery experts',
